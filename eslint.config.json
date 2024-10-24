@@ -1,0 +1,21 @@
+{
+    "rules": {
+      "additional-rule": "warn",
+      "no-unused-vars": "warn",
+      "no-undef": "warn",
+      "camelcase": "warn",
+      "no-console": "warn",
+      "no-duplicate-imports": "warn",
+      "@typescript-eslint/no-unused-vars": "warn"
+    },
+    "overrides": [
+      {
+        "files": [
+          "**/*.ts?(x)"
+        ],
+        "rules": {
+          "additional-rule": "off"
+        }
+      }
+    ]
+}
